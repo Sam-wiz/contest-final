@@ -36,7 +36,9 @@ function click(text) {
     newPost.innerHTML = `
         <div class="post1">
             <div class="profile">
-            <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="profile_image" >
+                <div id="profile_image">
+                        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="profile_image" >
+                </div>
             </div>
             <div id="name">
                 <h6 >@Samrudh</h6>
