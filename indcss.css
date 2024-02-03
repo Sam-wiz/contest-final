@@ -1,0 +1,114 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.nav-bar
+{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.logo
+{
+    margin-right: 900px;
+    padding: 2%;
+}
+.scaler-social
+{
+    padding: 2%;
+}
+hr
+{
+    color: #D6DEE4;
+}
+.main-page
+{
+    display: flex;
+    flex-direction: row;
+}
+.left-side
+{
+    background-color: #F7FCFF;
+    width: 50%;
+    float: left;
+}
+.right-side
+{
+    float: right;
+    width: 50%;
+    background-color: white;
+}
+.title
+{
+    font-size: 20px;
+    margin-left: 10%;
+    font-weight: 400;
+    margin-top: 30%;
+    padding: 2%;
+}
+.post-box
+{
+    margin-top: 2%;
+    margin-left: 15%;
+    border: solid;
+    border-color: #D6DEE4;
+    background-color: white;
+    border-radius: 5%;
+    margin-right: 10%;
+    padding: 5%;
+    margin-bottom: 20%;
+}
+#name
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#area
+{
+    resize: none;
+    border: none;
+    
+}
+#but
+{
+    color: white;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 5%;
+    background-color: #0041CA;
+    border: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+#profile_img
+{
+    padding: 10px;
+}
+.post1
+{
+    border: solid;
+    border-color: #D6DEE4;
+    margin: 10%;
+    padding: 5%;
+    border-radius: 7%;
+}
+#writt
+{
+    padding: 4%;
+}
+.react
+{
+    display: flex;
+    justify-content: space-around;
+}
+.profile
+{
+    display: flex;
+    justify-content: space-between;
+}

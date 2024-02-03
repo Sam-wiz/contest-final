@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indcss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Poppins:ital@1&family=Protest+Revolution&family=Proza+Libre:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>X-SST</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/033/original/SST_Logo.png?1706888781" alt="Logo">
+        </div>
+        <div class="scaler-social">
+            <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/032/original/scaler-social.png?1706888764" alt="scaler-social">
+        </div>
+    </div>
+    <hr>
+    <div class="main-page">
+        <div class="left-side">
+            <p class="title"><B>Post your thoughts here</B></p>
+            <div class="post-box">
+                <div class="profile">
+                    <div id="profile_image">
+                        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="profile_image" >
+                    </div>
+                    <div id="name">
+                        <h6 >@Samrudh</h6>
+                    </div>
+                </div>
+                    <textarea id="area" cols="50" rows="10" placeholder="Type your thoughts here....." maxlength="100"></textarea>
+                    <button id="but" onclick="storeText(event)">Post</button>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="posts">
+                <div class="post1">
+                    <div class="profile">
+                        <div id="profile_image">
+                            <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="profile_image" >
+                        </div>
+                        <div id="name">
+                            <h6 >@Samrudh</h6>
+                        </div>
+                    </div>
+                    <div id="writt">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam beatae doloremque fugit facere! Reprehenderit dolorum porro iure fugit et nihil. Sapiente alias accusantium id facere. Minus obcaecati quidem in explicabo?</p>
+                    </div>
+                    <div class="react">
+                        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/029/original/heart.png?1706888679" alt="like"  id="like">
+                        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/026/original/comment.png?1706888619" alt="comment" id="comment">
+                        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/028/original/edit.png?1706888661" alt="edit" id="edit">
+                        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/027/original/delete.png?1706888643" alt="delete" id="delete">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="indjs.js"></script>
+</body>
+</html>
